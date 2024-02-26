@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <style>
+        .material-symbols-outlined {
+            color:white;
+            width: 15px;
+          font-variation-settings:
+          'FILL' 40,
+          'wght' 500,
+          'GRAD' 20,
+          'opsz' 48;
+        }
+        .light-mode{
+            background-color: rgba(255, 255, 255, 0.5);
+        }
+        .btn1{
+            background-color: transparent;
+            border:none;
+            width:40px;
+            outline: none;
+        }
+        .lightdiv{
+            display: flex;
+            justify-content: center;
+            /* background-color: rgba(7, 7, 7,.98); */
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="container" >
+            <div class="navbar" >
+                <div class="logo-container">
+                    <img src="logo.png" >
+                    <div class="logo-text">hruv Kandpal</div>
+                </div>
+                <div class="navitems">
+                    <div><a href="#p1">Project</a></div>
+                    <div><a href="#skills">Skills</a></div>
+                    <div><a href="#contactme">Contact</a></div>
+                    <div id="lightdiv">
+                        <button class="btn1" onclick="myFunction()">
+                            <span class="material-symbols-outlined">light_mode</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-section" id="1" >
+            <!-- <div class="faded-text">Dhruv Kandpal</div> -->
+            <div class="hero-section-left">
+                <div class="hero-section-heading" >Hi! Dhruv here.</div>
+                <div class="hero-section-heading hero-section-subheading">
+                    I am a <span class="role"></span>
+                </div>
+                <div class="hero-section-description">
+                    I'm a software developer and here is my portfolio website. Here you'll learn about my journey as a software developer.
+                </div>
+                <div class="btn-pink" id="btn">Hire Me</div>
+            </div>
+            <div class="hero-section-right" >
+                <div class="absolute icons icon-dots">
+                    <img src="icon dots.png" alt="" style="width:65px; height:65px;">
+                </div>
+                <div class="absolute icons icon-cube">
+                    <img src="icon cube.png" alt="">
+                </div>
+                <div class="absolute icons icon-circle">
+                    <img src="icon-1.png" alt="" style="width:35px; height:35px;">
+                </div>
+                <div class="absolute icons icon-zigzag">
+                    <img src="icon-zigzag.png" alt="" style="width:65px; height:65px;">
+                </div>
+                <div class="absolute icons icon-plus">
+                    <img src="star.png" alt="" style="width:35px; height:35px;">
+                </div>
+                <div class="user-image" >
+                    <img src="user-image-2.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    
+        
+        <div class="project-section">
+            <h2 id="p1" class="page-header">Projects</h2>
+
+            <div class="project-container">
+                <div class="project-card" id="project1">
+                     <div class="project-number project-number-right">01</div>
+                     <div class="project-content project-content-left">
+                        <div class="project-skills-container">
+                            <img class="project-skill" src="HTML.png" alt="">
+                            <img class="project-skill" src="CSS.png" alt="">
+                            <img class="project-skill" src="github-mark-white.png" alt="">
+                            <img class="project-skill" src="Vercel.svg" alt="">
+                        </div>
+                        <h2 class="project-heading">GFG Clone</h2>
+                        <p class="project-sub-heading">
+                            Unlock the potential of a streamlined 
+                            GeeksforGeeks experience, delivering extensive
+                             coding resources and tutorials within a sleek 
+                             minimalist design.
+                        </p>
+                        <div class="btn-group">
+                            <button class="btn-pink btn-project">Read More</button>
+                            <a href="https://github.com/DHRUVKANDPAL/GFG-Clone" target="_blank">
+                            <i title="GitHubLink" class="fa-brands fa-github icon"></i>
+                            </a>
+                            <a href="https://gfg-clone.vercel.app/" target="_blank">
+                            <i title="Live Link" class="fa-solid fa-link icon"></i>
+                            </a>
+                        </div>
+                     </div>
+                </div>
+                <div class="project-card" id="project2">
+                    <div class="project-number project-number-left">02</div>
+                     <div class="project-content project-content-right">
+                        <div class="project-skills-container">
+                            <img class="project-skill" src="HTML.png" alt="">
+                            <img class="project-skill" src="CSS.png" alt="">
+                            <img class="project-skill" src="github-mark-white.png" alt="">
+                            <img class="project-skill" src="Vercel.svg" alt="">
+                        </div>
+                        <h2 class="project-heading">Anime Time</h2>
+                        <p class="project-sub-heading">
+                            Embark on an immersive journey with Anime Time, a parallax website that elevates your anime experience.
+                        </p>
+                        <div class="btn-group">
+                            <button class="btn-pink btn-project">Read More</button>
+                            <a href="https://github.com/DHRUVKANDPAL/Anime-Time" target="_blank">
+                            <i title="GitHubLink" class="fa-brands fa-github icon"></i>
+                            </a>
+                            <a href="https://anime-time-self.vercel.app/" target="_blank">
+                            <i title="Live Link" class="fa-solid fa-link icon"></i>
+                            </a>
+                        </div>
+                     </div>
+                </div>
+                <div class="project-card" id="project3">
+                    <div class="project-number project-number-right">03</div>
+                     <div class="project-content project-content-left">
+                        <div class="project-skills-container">
+                            <img class="project-skill" src="HTML.png" alt="">
+                            <img class="project-skill" src="CSS.png" alt="">
+                            <img class="project-skill" src="github-mark-white.png" alt="">
+                            <img class="project-skill" src="Vercel.svg" alt="">
+                        </div>
+                        <h2 class="project-heading">Image-Gallery</h2>
+                        <p class="project-sub-heading">
+                            Discover the artistry of my image gallery, 
+                            featuring grayscale effects that transform 
+                            each picture into a timeless masterpiece.
+                        </p>
+                        <div class="btn-group">
+                            <button class="btn-pink btn-project">Read More</button>
+                            <a href="https://github.com/DHRUVKANDPAL/Image-Gallery" target="_blank">
+                            <i title="GitHubLink" class="fa-brands fa-github icon"></i>
+                            </a>
+                            <a href="https://image-gallery-alpha-rouge.vercel.app/" target="_blank">
+                            <i title="Live Link" class="fa-solid fa-link icon"></i>
+                            </a>
+                        </div>
+                     </div>
+                </div>
+                <div class="project-card" id="project4">
+                    <div class="project-number project-number-left">04</div>
+                     <div class="project-content project-content-right">
+                        <div class="project-skills-container">
+                            <img class="project-skill" src="HTML.png" alt="">
+                            <img class="project-skill" src="CSS.png" alt="">
+                            <img class="project-skill" src="Javascript.svg" alt="">
+                            <img class="project-skill" src="github-mark-white.png" alt="">
+                            <img class="project-skill" src="Vercel.svg" alt="">
+                        </div>
+                        <h2 class="project-heading">Portfolio</h2>
+                        <p class="project-sub-heading">
+                            Welcome to my portfolio—a curated space where my journey unfolds through design and innovation.
+                        </p>
+                        <div class="btn-group">
+                            <button class="btn-pink btn-project">Read More</button>
+                            <a href="#1">
+                            <i title="GitHubLink" class="fa-brands fa-github icon"></i>
+                            </a>
+                            <a href="#1">
+                            <i title="Live Link" class="fa-solid fa-link icon"></i>
+                            </a>
+                        </div>
+                     </div>
+                </div>
+            </div>
+        </div>
+        <div id="skills" class="container skills-container">
+            <!-- Left Section -->
+            <div class="skill-container-left">
+              <h2 class="skill-heading">
+                <span class="caps">M</span>e and
+                <br />
+                MyTech Stack
+              </h2>
+              <div class="skill-subHeading">
+                <p >
+                  Hi Everyone My name is Dhruv Kandpal. I'm currently a second-year B.Tech student majoring in Information Technology at NIT Jalandhar.
+                   I have a genuine passion for problem-solving and have had the privilege of exploring more than 450 
+                   coding challenges on LeetCode, while actively engaging with the welcoming communities on GeeksforGeeks and Codeforces.
+
+                  
+                <p>
+                    I take pride in my ability to adapt and learn quickly. In addition to my problem-solving skills, 
+                    I also possess expertise in frontend technologies,
+  including HTML, CSS, Tailwind, and JavaScript. I am well-versed in version control tools like GitHub and deployment tools like Vercel.
+  In the ever-evolving world of technology, I'm always eager to learn and grow.
+                    
+                </p>
+                <p>
+                    My aspiration is to pursue a career as a software engineer,
+                    where I can apply my problem-solving skills to create meaningful solutions. 
+                    I would be delighted to connect and exchange insights with others who share a similar passion for Information Technology.
+                </p>
+              </div>
+            </div>
+        
+            <!-- Right Section -->
+        
+            <div class="skill-container-right">
+              <img src="blob.png" class="blob-style" alt="" />
+        
+              <img src="HTML.png" alt="" class="skills-logo" />
+              <img src="CSS.png" alt="" class="skills-logo" />
+              <img src="Javascript.svg" alt="" class="skills-logo" />
+              <img src="Tailwind.png" alt="" class="skills-logo" />
+              <img src="Bootstrap.svg" alt="" class="skills-logo" />
+              <img src="Git.svg" alt="" class="skills-logo" />
+              <img src="github.svg" alt="" class="skills-logo" />
+              <img src="Vercel.svg" alt="" class="skills-logo" />
+            </div>
+          </div>
+          <div class="container2">
+            <!-- <hr color="whitesmoke" line-height="50px"> -->
+            <div id="contactme" class="contactus-container">
+              <div class="centerthem">
+                <h1 class="contactus-heading">Contact Me</h1>
+              <h3 class="contactus-sub-heading">
+                Questions, thoughts, or just want to say hello?
+              </h3>
+              </div>
+        
+              <div class="contactus-form-container">
+                <form class="form" action="https://formspree.io/f/mqkrbbee" method="POST">
+                  <div class="formfield-container">
+                    <input class="formfield" type="text" name="name" id="" placeholder="Enter your name" />
+                  </div>
+                  <div class="formfield-container">
+                    <input class="formfield" type="email" name="email" id="" placeholder="Enter your email address" />
+                  </div>
+                  <div class="formfield-container">
+                    <input class="formfield" type="text" name="subject" id="" placeholder="Enter your subject" />
+                  </div>
+                  <div class="formfield-container">
+                    <textarea name="message" id="" cols="30" rows="10" class="formfield formfield-textarea"
+                      placeholder="Enter your message"></textarea>
+                  </div>
+                  <div>
+                    <button type="submit" class="btn-pink" id="submit-btn">
+                      Send Message<i class="submit-icon fa-solid fa-paper-plane"></i>
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        
+          <footer>
+            <div class="footer-faded-text">Dhruv Kandpal</div>
+            <div class="container2 footer-wrapper">
+              
+              <div class="link-wrapper">
+                <div>
+                  <a href="#p1">Projects</a>
+                </div>
+                <div>
+                  <a href="#skills">Skills</a>
+                </div>
+                <div>
+                  <a href="#contactme">Contact Me</a>
+                </div>
+              </div>
+        
+              <div class="icon-wrapper">
+                <a href="https://www.linkedin.com/in/dhruv-kandpal-1b231a249/"><i class="fa-brands fa-linkedin icon"></i></a>
+                <a href="https://github.com/DHRUVKANDPAL"><i class="fa-brands fa-github icon"></i></a>
+                <a href="mailto:dhruvkandpal172@gmail.com"><i class="fa-regular fa-envelope icon"></i></a>
+                
+              </div>
+            </div>
+          </footer>  
+    </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<script src="https://kit.fontawesome.com/58a810656e.js" crossorigin="anonymous"></script>
+<script>
+    function myFunction() {
+        var element = document.body;
+        element.classList.toggle("light-mode");
+    }
+    var typeData = new Typed(".role", {
+      strings: [
+        "Full Stack Developer",
+        "Web Developer",
+        "UI-UX Designer",
+        "Backend Developer",
+        "Coder",
+      ],
+      loop: true,
+      typeSpeed: 100,
+      backSpeed: 80,
+      backDelay: 1000,
+    });
+</script>
+</html>
